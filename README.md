@@ -4,9 +4,13 @@ Plugin for using Bluetooth (teseted on HC-05, HC-06) with unity3d on Android
 ## How it Works
 
 Pair your bluetooth device to your android phone.
+
 Build the game using SampleScene.
+
 Enter the name of the bluetooth device, click Start.
+
 Enter data in the input filed named "Enter Data to send" and click send.
+
 To see incoming data, draw a circle in the screen with your finger to see a the Log Viewer (Unity-Logs-Viewer from assets store)
 
 
