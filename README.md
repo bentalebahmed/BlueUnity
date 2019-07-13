@@ -22,6 +22,8 @@ In folder Assets\Plugins you will find the Android plugin named classes, Android
 
 In Assets folder you will find a script (BluetoothTest) that contains functoin assigned to buttons to Start, Stop and send data to Bluetooth.
 
+For the incoming data the plugin reads till new line appears ('\n') , (inputBuffer.readLine()) 
+
 
 ## Contributing or Asking
 
