@@ -16,6 +16,8 @@ To see incoming data, draw a circle in the screen with your finger to see a the 
 
 ## Installation
 
+BluetoothPlugin is the Android Project if you want to check the code and make changes on the Jar file.
+
 Add unityPackage to Unity, in folder Scenes you will find a scene "SampleScene" to test the buetooth plugin (teseted on HC-06, HC-05).
 
 In folder Assets\Plugins you will find the Android plugin named classes, AndroidManifest (for adding Bluetooth permission) and C# script for handling the plugin for you.
