@@ -3,9 +3,11 @@ Plugin for using Bluetooth (teseted on HC-05, HC-06) with unity3d on Android
 
 ## How it Works
 
-Pair your bluetooth device to your android phone.
+Build the game using SampleScene or use the one i already built ( see in 'Use this build to test').
 
-Build the game using SampleScene.
+Pair your bluetooth device (tested on HC-05 and HC-06) to your android phone.
+
+Open the app.
 
 Enter the name of the bluetooth device, click Start.
 
