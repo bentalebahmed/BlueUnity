@@ -15,6 +15,8 @@ Enter data in the input filed named "Enter Data to send" and click send.
 
 To see incoming data, draw a circle in the screen with your finger to see a the Log Viewer (Unity-Logs-Viewer from assets store)
 
+Also see this video: https://www.youtube.com/watch?v=H3llkatHt1E (the sound is low sorry for that)
+
 
 ## Installation
 
