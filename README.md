@@ -17,6 +17,8 @@ To see incoming data, draw a circle in the screen with your finger to see a the 
 
 Also see this video: https://www.youtube.com/watch?v=H3llkatHt1E (the sound is low sorry for that)
 
+if you want to edit the plugin and adapt it on your needs, check the "Android Studio src" file that contains the code of the plugin
+
 
 ## Installation
 
