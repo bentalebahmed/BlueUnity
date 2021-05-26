@@ -1,5 +1,5 @@
 # BlueUnity
-Plugin for using Bluetooth (teseted on HC-05, HC-06) with unity3d on Android
+Plugin for using Bluetooth (teseted on HC-05, HC-06 and BM78 bluetooth modules) with Unity3d on Android
 
 ## How it Works
 
