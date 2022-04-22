@@ -5,7 +5,7 @@ Plugin for using Bluetooth (teseted on HC-05, HC-06 and BM78 bluetooth modules) 
 
 Build the game using SampleScene or use the one i already built ( see in 'Use this build to test').
 
-Pair your bluetooth device (tested on HC-05 and HC-06) to your android phone.
+Pair your bluetooth device (tested on HC-05 and HC-06) with baud rate of 9600 to your android phone.
 
 Open the app.
 
@@ -17,8 +17,7 @@ To see incoming data, draw a circle in the screen with your finger to see a the 
 
 Also see this video: https://www.youtube.com/watch?v=H3llkatHt1E (the sound is low sorry for that)
 
-if you want to edit the plugin and adapt it on your needs, check the "Android Studio src" file that contains the code of the plugin
-
+If you want to edit the plugin and adapt it on your needs, check the "Android Studio src" file that contains the code of the plugin, check this video by CWGTech on Creating an Android plugin for Unity3D (https://www.youtube.com/watch?v=bmNMugkOQBI&list=WL&index=2&t=171s)
 
 ## Installation
 
