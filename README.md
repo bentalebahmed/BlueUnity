@@ -21,7 +21,7 @@ Import `UnityAndroidBluetooth.unitypackage` (V1 or V2) into a Unity project. In 
 
 7) To see incoming data, draw a circle in the screen with your finger to see the Log Viewer (Unity-Logs-Viewer from assets store)
 
-See [this video](https://www.youtube.com/watch?v=H3llkatHt1E) for a full walkthrough and how to create your own plugin.
+See [this video](https://www.youtube.com/watch?v=n9F6J5m7BJI) for a full walkthrough and how to create your own plugin.
 
 > **Note:** The plugin parses incoming data with `inputBuffer.readLine()`, which reads until it reaches a new line character ('\n').
 
