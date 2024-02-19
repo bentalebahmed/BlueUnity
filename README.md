@@ -51,8 +51,12 @@ and use UnitySendMessage that searches for a GameObject by Name and calls a Func
 UnityPlayer.UnitySendMessage("GameObjectName", "FunctionToBeCalled", "ArgumentAsString");
 ```
 
+This functions is used for Search status, Connection status, New Device Found and Read Data callbacks.
+
 
 See [this video](https://www.youtube.com/watch?v=n9F6J5m7BJI) for a full walkthrough and how to create your own plugin (for V2). 
+
+
 V3 demo and code explanation coming soon, for now i hope the code is self explained.
 
 > **Note:** The plugin parses incoming data with `inputBuffer.readLine()`, which reads until it reaches a new line character ('\n').
