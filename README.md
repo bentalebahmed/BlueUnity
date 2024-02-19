@@ -19,6 +19,7 @@ Make sure the set the minimum android API level to API level 27 from Player Sett
 5) Enter data in the input field named "Enter Data to send" and click Send.
    
 6) The incoming data is displayed directly on the screen, using ReadData(string data) which is called from Java class using UnityPlayer.UnitySendMessage().
+> **Note:** The plugin parses incoming data with `inputBuffer.readLine()`, which reads until it reaches a new line character ('\n').
 
 8) To see Log messages, draw a circle in the screen with your finger to see the Log Viewer (Unity-Logs-Viewer from assets store).
    
@@ -54,12 +55,12 @@ UnityPlayer.UnitySendMessage("GameObjectName", "FunctionToBeCalled", "ArgumentAs
 This functions is used for Search status, Connection status, New Device Found and Read Data callbacks.
 
 
+
 See [this video](https://www.youtube.com/watch?v=n9F6J5m7BJI) for a full walkthrough and how to create your own plugin (for V2). 
 
 
 V3 demo and code explanation coming soon, for now i hope the code is self explained.
 
-> **Note:** The plugin parses incoming data with `inputBuffer.readLine()`, which reads until it reaches a new line character ('\n').
 
 ## Bluetooth Compatibility
 
