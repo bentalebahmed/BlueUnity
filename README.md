@@ -64,7 +64,7 @@ V3 demo and code explanation are coming soon, for now, I hope the code is self-e
 
 ## Bluetooth Compatibility
 
-BlueUnity was tested on HC-05, HC-06, and BM78 Bluetooth modules, also with ESP32, using the standard Bluetooth library (BluetoothSerial.h).
+BlueUnity was tested on HC-05, HC-06, BM78 Bluetooth modules, and ESP32 using the standard Bluetooth library (BluetoothSerial.h).
 
 ## Adapting to Your Project
 
