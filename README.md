@@ -4,7 +4,7 @@ BlueUnity is a plugin for using Bluetooth with Unity3d on Android.
 ## Installation
 
 Import `UnityAndroidBluetooth.unitypackage` (V3) into a Unity project. In the Scenes folder, you will find a scene "SampleScene" to test the Bluetooth plugin.
-Make sure the set the minimum android API level to API level 27 from Player Settings.
+Make sure to set the minimum Android API level to API level 27 from Player Settings.
 
 ## Usage
 
@@ -34,7 +34,7 @@ Make sure the set the minimum android API level to API level 27 from Player Sett
 - Read Stream.
 - Write Stream.
 
-I have Enhanced the code by using Unity3D UnityPlayer java class, this is done by adding the following line in build.gradle.kts of the Module, Here i m using Unity 2020.3.28f1, change that to your version:
+I have Enhanced the code by using Unity3D UnityPlayer java class, this is done by adding the following line in build.gradle.kts of the Module, Here I'm using Unity 2020.3.28f1, change that to your version:
 
 ```
 dependencies {
@@ -43,23 +43,23 @@ dependencies {
     }
 
 ```    
-In the Java class you can now import UnityPlayer java class:
+In the Java class you can import UnityPlayer java class:
 ```
 import com.unity3d.player.UnityPlayer;
 ```
-and use UnitySendMessage that searches for a GameObject by Name and calls a Function inside that GameObject and pass Arugments as String to it:
+and use UnitySendMessage that searches for a GameObject by Name and calls a Function inside that GameObject and passes Arguments as String to it:
 ```
 UnityPlayer.UnitySendMessage("GameObjectName", "FunctionToBeCalled", "ArgumentAsString");
 ```
 
-This functions is used for Search status, Connection status, New Device Found and Read Data callbacks.
+This function is used for Search status, Connection status, New Device Found, and Read Data callbacks.
 
 
 
 See [this video](https://www.youtube.com/watch?v=n9F6J5m7BJI) for a full walkthrough and how to create your own plugin (for V2). 
 
 
-V3 demo and code explanation coming soon, for now i hope the code is self explained.
+V3 demo and code explanation are coming soon, for now, I hope the code is self-explained.
 
 
 ## Bluetooth Compatibility
