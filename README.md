@@ -34,13 +34,23 @@ Make sure the set the minimum android API level to API level 27 from Player Sett
 - Write Stream.
 
 I have Enhanced the code by using Unity3D UnityPlayer java class, this is done by adding the following line in build.gradle.kts of the Module, Here i m using Unity 2020.3.28f1, change that to your version:
-`dependencies {
+
+```
+dependencies {
     ...
     compileOnly(files("C:/Program Files/Unity/Hub/Editor/2020.3.28f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Release/Classes/classes.jar"))
-    }`
-    
-In the Java class you can now import UnityPlayer java class as `import com.unity3d.player.UnityPlayer;` and use `UnityPlayer.UnitySendMessage("GameObjectName", "FunctionToBeCalled", "ArgumentAsString");
-`
+    }
+
+```    
+In the Java class you can now import UnityPlayer java class as
+```
+import com.unity3d.player.UnityPlayer;
+```
+and use 
+```
+UnityPlayer.UnitySendMessage("GameObjectName", "FunctionToBeCalled", "ArgumentAsString");
+```
+
 
 See [this video](https://www.youtube.com/watch?v=n9F6J5m7BJI) for a full walkthrough and how to create your own plugin (for V2). 
 V3 demo and code explanation coming soon, for now i hope the code is self explained.
