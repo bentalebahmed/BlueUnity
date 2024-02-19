@@ -42,11 +42,11 @@ dependencies {
     }
 
 ```    
-In the Java class you can now import UnityPlayer java class as
+In the Java class you can now import UnityPlayer java class:
 ```
 import com.unity3d.player.UnityPlayer;
 ```
-and use 
+and use UnitySendMessage that searches for a GameObject by Name and calls a Function inside that GameObject and pass Arugments as String to it:
 ```
 UnityPlayer.UnitySendMessage("GameObjectName", "FunctionToBeCalled", "ArgumentAsString");
 ```
