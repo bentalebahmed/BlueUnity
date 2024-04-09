@@ -66,6 +66,8 @@ V3 demo and code explanation are coming soon, for now, I hope the code is self-e
 
 BlueUnity was tested on HC-05, HC-06, BM78 Bluetooth modules, and ESP32 using the standard Bluetooth library (BluetoothSerial.h).
 
+> **Note:** Use println(data) or write(data+"\n"). As the plug-in expects new line ('\n') each time data is received.
+
 ## Adapting to Your Project
 
 If you want to edit the plugin and adapt it to your needs, check the "Android source code" folder, which contains the code of the plugin.
