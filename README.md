@@ -23,6 +23,8 @@ Make sure to set the minimum Android API level to API level 27 from Player Setti
 
 8) To see Log messages, draw a circle in the screen with your finger to see the Log Viewer (Unity-Logs-Viewer from assets store).
    
+9) Do not forget to enalbe bluetooth and location access.
+   
 ## Supported functionality
 - Check and Request BT and location permissions (for Search Devices).
 - Search Devices.
