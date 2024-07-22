@@ -151,12 +151,14 @@ public class BluetoothConnector {
 
             reader = new BufferedReader(new InputStreamReader(inputStream));
 
+            ReadDatathread = new Thread(ReadData);
             ReadDatathread.start();
 
             UnityPlayer.UnitySendMessage("BluetoothManager", "ConnectionStatus", "connected");
         }
         catch (Exception ex)
         {
+            UnityPlayer.UnitySendMessage("BluetoothManager", "ConnectionStatus", "unable to connect");
             UnityPlayer.UnitySendMessage("BluetoothManager", "ReadLog", "StartConnection Error: "+ex);
         }
     }
@@ -187,7 +189,7 @@ public class BluetoothConnector {
         }
     };
 
-    private static final Thread ReadDatathread = new Thread(ReadData);
+    private static Thread ReadDatathread = null;
 
     public static void WriteData(String data) {
         try {
