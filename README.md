@@ -1,5 +1,5 @@
 # BlueUnity
-BlueUnity is a plugin for using Bluetooth with Unity3d on Android.
+BlueUnity is a plugin for using Bluetooth Serial with Unity3d on Android.
 
 ## Installation
 
