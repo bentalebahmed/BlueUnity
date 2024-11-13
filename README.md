@@ -74,6 +74,10 @@ BlueUnity was tested on HC-05, HC-06, BM78 Bluetooth modules, and ESP32 using th
 
 If you want to edit the plugin and adapt it to your needs, check the "Android source code" folder, which contains the code of the plugin.
 
+To create you own plug-in (the arr file), in Android studio go to File -> New -> New Module, and select Android Library. 
+
+To use UnitySendMessage don't forget to add the required dependency (check above) in 'build.gradle.kts' of your library
+
 ## Contributing or Questions
 
 Contact: bentalebahmed98@gmail.com
