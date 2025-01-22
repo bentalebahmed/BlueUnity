@@ -55,13 +55,9 @@ UnityPlayer.UnitySendMessage("GameObjectName", "FunctionToBeCalled", "ArgumentAs
 ```
 
 This function is used for Search status, Connection status, New Device Found, and Read Data callbacks.
+ 
 
-
-
-See [this video](https://www.youtube.com/watch?v=n9F6J5m7BJI) for a full walkthrough and how to create your own plugin (for V2). 
-
-
-V3 demo and code explanation are coming soon, for now, I hope the code is self-explained.
+Demo and code explanation are coming soon, for now, I hope the code is self-explained.
 
 
 ## Bluetooth Compatibility
