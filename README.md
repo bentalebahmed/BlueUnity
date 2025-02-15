@@ -11,7 +11,7 @@ BlueUnity is a plugin for using Bluetooth Serial with Unity3d on Android.
 
 4) Also in Player Settings -> Other Settings -> Minimum API Level : set it to API level 27
 
-5) Check in Player Settings -> Other Settings, if you have the option 'Application Entry Point', make sure to set it to Activity and not GameActivity as the plugin uses custom Android Manifest (Found that in Unity 6).
+5) Check in Player Settings -> Other Settings, if you have the option `Application Entry Point`, make sure to set it to Activity and not GameActivity as the plugin uses custom Android Manifest (Found that in Unity 6).
    
 6) Import `UnityAndroidBluetooth.unitypackage` (V3). In the Scenes folder, you will find a scene "SampleScene" to test the Bluetooth plugin.
 
