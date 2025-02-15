@@ -3,10 +3,19 @@ BlueUnity is a plugin for using Bluetooth Serial with Unity3d on Android.
 
 ## Installation
 
-Import `UnityAndroidBluetooth.unitypackage` (V3) into a Unity project. In the Scenes folder, you will find a scene "SampleScene" to test the Bluetooth plugin.
-Make sure to set the minimum Android API level to API level 27 from Player Settings.
+1) Create new Unity project.
 
-I used Unity 2020.3.28f1 LTS to create and build my apk for this plug-in.
+2) Switch to Android build profile
+
+3) In Player Settings -> Publishing Settings -> Build : enable Custom Main Manifest.
+
+4) Also in Player Settings -> Other Settings -> Minimum API Level : set it to API level 27
+
+5) Check in Player Settings -> Other Settings, if you have the option 'Application Entry Point', make sure to set it to Activity and not GameActivity as the plugin uses custom Android Manifest (Found that in Unity 6).
+   
+6) Import `UnityAndroidBluetooth.unitypackage` (V3). In the Scenes folder, you will find a scene "SampleScene" to test the Bluetooth plugin.
+
+> Note: Pluging was tested on `Unity 2020.3.28f1` and `Unity 6000.0.38f1` on a Samsung A53 that runs Android 14 (API 34) with a HC-05 bluetooth module.
 
 ## Usage
 
@@ -14,13 +23,13 @@ I used Unity 2020.3.28f1 LTS to create and build my apk for this plug-in.
 
 2) Enable bluetooth and location.
 
-3) Open the app.
+3) Open the app and approve all permissions
 
-4) Enter the MAC address of the Bluetooth device, and click Start button to connect to BT.
+5) Click Search button to start scanning for bluetooth devices or Paired Devices button to list all paired devices. Enter the MAC address of the bluetooth device, and click Start button to connect.
 
-5) Enter data in the input field named "Enter Data to send" and click Send.
+6) Enter data in the input field named "Enter Data to send" and click Send.
    
-6) The incoming data is displayed directly on the screen, using ReadData(string data) which is called from Java class using UnityPlayer.UnitySendMessage().
+7) The incoming data is displayed directly on the screen, using ReadData(string data) which is called from Java class using UnityPlayer.UnitySendMessage().
 > **Note:** The plugin parses incoming data with `inputBuffer.readLine()`, which reads until it reaches a new line character ('\n').
 
 8) To see Log messages, draw a circle in the screen with your finger to see the Log Viewer (Unity-Logs-Viewer from assets store).
