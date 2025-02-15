@@ -6,6 +6,8 @@ BlueUnity is a plugin for using Bluetooth Serial with Unity3d on Android.
 Import `UnityAndroidBluetooth.unitypackage` (V3) into a Unity project. In the Scenes folder, you will find a scene "SampleScene" to test the Bluetooth plugin.
 Make sure to set the minimum Android API level to API level 27 from Player Settings.
 
+I used Unity 2020.3.28f1 LTS to create and build my apk for this plug-in.
+
 ## Usage
 
 1) Build the game using SampleScene or use the one I already built (see in 'Use this build to test/ V3').
