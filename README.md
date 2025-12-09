@@ -1,4 +1,6 @@
-# BlueUnity
+# Java Version Archived – Please Use the [`Kotlin Version`](https://github.com/bentalebahmed/BlueUnity/tree/Kotlin-version)
+
+# BlueUnity - Java version 
 BlueUnity is a plugin for using Bluetooth Serial with Unity3d on Android.
 
 ## Installation
