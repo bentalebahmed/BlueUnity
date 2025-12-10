@@ -33,6 +33,13 @@ This version is a Kotlin-based implementation that enables device scanning, pair
   - onDataReceived(data: ByteArray)
   - onDataNotSent(data: ByteArray)
   - onError(error: String)
+  
+## Kotlin ByteArray → Unity byte[] Conversion
+Kotlin uses **signed bytes (`Byte`, -128 to 127)**, while Unity uses **unsigned bytes (`byte`, 0 to 255)**.
+
+
+- All data received from Android arrives as **signed `ByteArray`**
+- A conversion is automatically handled on the **Unity side**  
 
 ## Installation
 
