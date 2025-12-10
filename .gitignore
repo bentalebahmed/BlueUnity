@@ -1,70 +1,15 @@
-# Gradle files
-.gradle/
-build/
-!/gradle/wrapper/gradle-wrapper.jar
-
-# Local configuration file
-local.properties
-
-# Android Studio and IntelliJ IDE files
-.idea/
 *.iml
-*.iws
-*.ipr
-.idea/caches/
-.idea/libraries/
-.idea/shelf/
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-
-# Generated and build files
-bin/
-gen/
-out/
-*/build/
-*/production/
-captures/
-.externalNativeBuild/
-obj/
-
-# Compiled files
-*.apk
-*.ap_
-*.aab
-*.dex
-*.class
-
-# Signing and keystore
-*.jks
-*.keystore
-.signing/
-
-# Logs
-*.log
-hs_err_pid*
-
-# OS-specific files
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
 .DS_Store
-Thumbs.db
-._*
-.Spotlight-V100
-.Trashes
-
-# Proguard and obfuscation
-proguard/
-proguard-rules.pro
-
-# Navigation and temporary editor files
-.navigation/
-*~
-*.swp
-
-# Crashlytics and other plugin files
-crashlytics-build.properties
-fabric.properties
-com_crashlytics_export_strings.xml
-
-# NDK
-ndkBuild/   
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
