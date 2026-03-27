@@ -16,7 +16,7 @@ This version is a Kotlin-based implementation that enables device scanning, pair
 - Retrieve paired devices
 - Search for nearby devices
 - Connect/disconnect using MAC address
-- Device-to-device (mobile, tablet, headset, etc.) communication (one server, one clients)
+- Device-to-device (mobile, tablet, headset, etc.) communication (one server, one client)
 - Device-to-module (ESP32, HC-05/06, BM78, etc.) communication (Device as client and the module always as a server)
 
 ### Communication
