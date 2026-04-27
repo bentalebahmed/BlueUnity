@@ -53,7 +53,7 @@ Kotlin uses **signed bytes (`Byte`, -128 to 127)**, while Unity uses **unsigned 
    Set **Application Entry Point** to **Activity**  
    Project Settings → Player → Other Settings
 
-4. [**Import BlueUnity UnityPackage**](https://github.com/bentalebahmed/BlueUnity/releases)   
+4. [**Import BlueUnity UnityPackage**](https://github.com/bentalebahmed/BlueUnity/releases/tag/Kotline-v0.0.1)   
 
 5. Use the **BlueUnity** top-menu in Unity to:
    - Validate plugin files  
